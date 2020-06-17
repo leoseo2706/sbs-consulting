@@ -14,7 +14,7 @@ function HeaderConfig(props) {
 
     return (
         <div className="header-action mt-lg-3 text-right">
-            <a href="tel:00199823568658" className="tel-no">+998 23568 658</a>
+            <a href="tel:0452363168" className="tel-no">(+61) 452 363 168</a>
             <button onClick={LoginRegHandler} className="btn-cog"><i className="fa fa-cog"/></button>
             <button onClick={MobileMenuHandler} className="btn-menu d-lg-none"><i className="fa fa-bars"/></button>
         </div>

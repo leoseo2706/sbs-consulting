@@ -24,7 +24,7 @@ class FunfactItem extends Component {
                         <CountUp start={this.state.appear ? 0 : null} end={this.props.counterNumber}>
                             {({ countUpRef }) => (
                                 <div>
-                                    <span ref={countUpRef} />
+                                    <span ref={countUpRef} /> {this.props.type == 'percentage' ? '%' : ''}
                                     <VisibilitySensor
                                         onChange={(isVisible) => this.visibleChangeHandler(isVisible)}>
                                         <span className="sr-only">+</span>
@@ -33,7 +33,6 @@ class FunfactItem extends Component {
                             )}
                         </CountUp>
                     </h2>
-
                     <h6 className="counter-txt">{this.props.counterText}</h6>
                 </div>
             </div>

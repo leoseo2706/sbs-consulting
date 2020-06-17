@@ -1,15 +1,15 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import Slider from "react-slick";
 import testimonialData from '../../../data/Testimonials/home-two'
 import quote from '../../../assets/img/icons/quote.png'
 import SectionTitle from "../../UI/SectionTitle";
 
-const NextArrow = ({className, onClick}) => {
-    return <button className={className} onClick={onClick}><i className="fa fa-long-arrow-right"/></button>
+const NextArrow = ({ className, onClick }) => {
+    return <button className={className} onClick={onClick}><i className="fa fa-long-arrow-right" /></button>
 };
 
-const PrevArrow = ({className, onClick}) => {
-    return <button className={className} onClick={onClick}><i className="fa fa-long-arrow-left"/></button>
+const PrevArrow = ({ className, onClick }) => {
+    return <button className={className} onClick={onClick}><i className="fa fa-long-arrow-left" /></button>
 };
 
 class Testimonial extends Component {
@@ -34,8 +34,8 @@ class Testimonial extends Component {
             swipeToSlide: true,
             focusOnSelect: true,
             className: "testimonial-content--2",
-            nextArrow: <NextArrow/>,
-            prevArrow: <PrevArrow/>
+            nextArrow: <NextArrow />,
+            prevArrow: <PrevArrow />
         };
 
         return (
@@ -45,8 +45,8 @@ class Testimonial extends Component {
                         <div className="col-12 text-center">
                             <SectionTitle
                                 title="TESTIMONIALS"
-                                heading="Don’t Believe us, <br/> Check Client Word"
-                                tagline="More over <span class='tag-no'>1900+</span><strong>customer</strong>"
+                                heading="Don’t listen to us, <br/> Just see what we did"
+                                tagline="More than <span class='tag-no'>3000+</span><strong> customers</strong>"
                             />
                         </div>
                     </div>
@@ -65,7 +65,7 @@ class Testimonial extends Component {
                                             <div className="testimonial-thumbnail-item">
                                                 <img
                                                     src={require('../../../assets/img/' + testimonial.authorThumb)}
-                                                    alt="Businex-Testimonial"/>
+                                                    alt="Businex-Testimonial" />
                                             </div>
                                         </div>
                                     ))
@@ -78,8 +78,8 @@ class Testimonial extends Component {
                                 <div className="d-none d-lg-block">
                                     <SectionTitle
                                         title="TESTIMONIALS"
-                                        heading="Don’t Believe us, <br/> Check Client Word"
-                                        tagline="More over <span class='tag-no'>1900+</span><strong>customer</strong>"
+                                        heading="Just see what we did"
+                                        tagline="More than <span class='tag-no'>3000+</span><strong> customers</strong>"
                                     />
                                 </div>
 
@@ -94,7 +94,7 @@ class Testimonial extends Component {
                                                 <div key={testiItem.id}>
                                                     <div className="testimonial-item testimonial-item--2">
                                                         <div className="testimonial-txt">
-                                                            <img src={quote} alt="Businex"/>
+                                                            <img src={quote} alt="SBS consulting" />
                                                             <p>{testiItem.quote}</p>
                                                             <h5 className="client-name">{testiItem.author}, <span
                                                                 className="designation">{testiItem.designation}</span>

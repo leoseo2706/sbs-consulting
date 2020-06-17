@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "name": "Lucy Farnando",
+    "name": "Dr. Nguyen Hong Phong",
     "designation": "CEO & Founder",
-    "profilePic": "team/h-2-01.png"
+    "profilePic": "team/h-2-01.jpg"
   },
   {
     "id": 2,
-    "name": "James Anderson",
-    "designation": "HR & Admin",
-    "profilePic": "team/h-2-02.png"
+    "name": "Ms. Tran Hong Hanh ",
+    "designation": "Business Development Manager",
+    "profilePic": "team/h-2-02.jpg"
   },
   {
     "id": 3,
-    "name": "Thomas Nancy",
-    "designation": "Software Engineer",
-    "profilePic": "team/h-2-03.png"
+    "name": "Mr. Duy Trinh",
+    "designation": "Consulting Agent",
+    "profilePic": "team/h-2-03.jpg"
   },
   {
     "id": 4,
-    "name": "Nail Mathue",
-    "designation": "Creative Designer",
-    "profilePic": "team/h-2-04.png"
+    "name": "Ms. Nguyen Thu Hien",
+    "designation": "Consulting Agent",
+    "profilePic": "team/h-2-04.jpg"
   }
 ]

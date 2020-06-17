@@ -2,19 +2,19 @@
   {
     "id": 1,
     "title": "Creative Team",
-    "text": "We have creative team, they always ready to help you.",
+    "text": "Our team is always ready to help you.",
     "imgSrc": "feature/01.png"
   },
   {
     "id": 2,
-    "title": "Best Service",
-    "text": "We have creative team, they always ready to help you.",
+    "title": "Best Consultation",
+    "text": "Our team of experts strike to provide the best consulting service.",
     "imgSrc": "feature/02.png"
   },
   {
     "id": 3,
-    "title": "Online Support",
-    "text": "We have creative team, they always ready to help you.",
+    "title": "5 Star Review",
+    "text": "Your satisfactions are the the utmost importance.",
     "imgSrc": "feature/03.png"
   }
 ]

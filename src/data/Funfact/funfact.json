@@ -1,22 +1,38 @@
 [
   {
     "id": 1,
-    "counterNumber": 2654,
-    "counterText": "Happy Clients"
+    "counterNumber": 100,
+    "counterText": "GPA of 7.0 or above/IELTS of 6.0 or above",
+    "type" : "percentage"
   },
   {
     "id": 2,
-    "counterNumber": 1520,
-    "counterText": "Project Done"
+    "counterNumber": 96.59,
+    "counterText": "Scholarship Granted",
+    "type" : "percentage"
   },
   {
     "id": 3,
-    "counterNumber": 120,
-    "counterText": "Awards Win"
+    "counterNumber": 22.56,
+    "counterText": "Tution Fee and Stipend Scholarship",
+    "type" : "percentage"
   },
   {
     "id": 4,
-    "counterNumber": 3580,
-    "counterText": "Cups Coffee"
+    "counterNumber": 97,
+    "counterText": "students sent to AU institutions yearly",
+    "type" : "number"
+  },
+  {
+    "id": 5,
+    "counterNumber": 16,
+    "counterText": "students sent to UK universities yearly",
+    "type" : "number"
+  },
+  {
+    "id": 6,
+    "counterNumber": 12,
+    "counterText": "students sent to Netherlands universities yearly",
+    "type" : "number"
   }
 ]
