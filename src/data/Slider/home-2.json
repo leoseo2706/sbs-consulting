@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Nurturing Your Dreams",
+    "text": "Pathway to success.",
+    "bg": "slider/h-2-01.png",
+    "btnText": "Learn More",
+    "btnLink": "/about-1"
+  },
+  {
+    "id": 2,
+    "title": "Let us help you",
+    "text": "Pathway to success.",
+    "bg": "slider/h-2-02.png",
+    "btnText": "Learn More",
+    "btnLink": "/about"
+  }
+]
