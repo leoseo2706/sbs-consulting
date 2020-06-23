@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Home",
-    "link": "/home-two",
+    "link": "/home",
     "megaMenu": false,
     "subMenu": false
   },

@@ -2,14 +2,14 @@
   {
     "id": 1,
     "title": "SBS English",
-    "shortDesc": "Academic support.",
+    "shortDesc": "Academic support for SBS students.",
     "thumb": "service/01.jpeg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
       "service/details/03.jpg"
     ],
-    "aboutServiceDesc": "<p>Voluptatum delenitied atqued corrupti is eseted quased stias cepturi sint aete non provident, csimilique sunt dunt labore ete dolored magnam aliquam quaerat Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</p>   <p>Corrupti deleniti atque magnam is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat Neque porro quisquam est dolorem</p>",
+    "aboutServiceDesc": "<p>English trainers are sough from those who have successfully completed their studies from such English speaking countries as Australia, the UK, the USA, Canada, and New Zealand with exceptional teaching and coaching experience and capacities. </p> <p>Interactive teaching methodologies, with the aid of information technology, are utilised to support learners to maximise the absorption of English skills in both academic and daily-life settings. We focus on practical English for specific purposes. </p>",
     "features": [
       "IELTS 4.5 or equivalent",
       "IELTS 5.5 or equivalent",
@@ -19,81 +19,97 @@
   {
     "id": 2,
     "title": "SBS Scholarships",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
+    "shortDesc": "Scholarship advice for SBS customers.",
     "thumb": "service/02.jpg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
       "service/details/03.jpg"
     ],
-    "aboutServiceDesc": "<p>Voluptatum delenitied atqued corrupti is eseted quased stias cepturi sint aete non provident, csimilique sunt dunt labore ete dolored magnam aliquam quaerat Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</p>   <p>Corrupti deleniti atque magnam is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat Neque porro quisquam est dolorem</p>",
+    "aboutServiceDesc": "<p>Being prestigious scholarship recipients with more than 10 years of scholarship mentoring, SBS Scholarship Mentors aim to motivate and coach our scholarship mentees to maximise their potentials by strengthening their core capacities and matching with scholarship requirements and criteria. </p> <p>At SBS, Mentor-Mentee relationship is not limited by the border of the scholarship applications but it is expanded to the support along the scholarship journeys of our excellent mentees. Our strengths rest on the research scholarships. All partial coursework scholarship applications are supported for FREE. </p>",
     "features": [
-      "Voluptatum deleniti atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat",
-      "Atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat"
+      "Publication mentoring",
+      "Scholarships essays",
+      "Honour equivalance",
+      "Interview coaching",
+      "Research training",
+      "Reference letter",
+      "Supervision",
+      "Proposal"
     ]
   },
   {
     "id": 3,
     "title": "SBS Education",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
+    "shortDesc": "We provide the best educational services for students.",
     "thumb": "service/03.jpg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
       "service/details/03.jpg"
     ],
-    "aboutServiceDesc": "<p>Voluptatum delenitied atqued corrupti is eseted quased stias cepturi sint aete non provident, csimilique sunt dunt labore ete dolored magnam aliquam quaerat Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</p>   <p>Corrupti deleniti atque magnam is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat Neque porro quisquam est dolorem</p>",
+    "aboutServiceDesc": "<p>Led by a team of academically excellent professionals, SBS Education dedicates its best effort to support our student choose the best course of study, select the most suitable education provider, and follow the finest pathway for their future careers. </p> <p>At SBS Education, we do not focus only on the study side of the student’s decision but we spend more consultations on the long term and sustainable development of out student’s future. We always prefer a balanced approach to help our students reach their ultimate life-long goals in a shortest time frame with least effort. </p>",
     "features": [
-      "Voluptatum deleniti atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat",
-      "Atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat"
+      "Admission support",
+      "Student visa services",
+      "OSHC",
+      "Tourist visa",
+      "Change of course or provider",
+      "Conversion from other visas to student visa"
     ]
   },
   {
     "id": 4,
     "title": "SBS Career Advancement",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
+    "shortDesc": "Discover the right career direction for you.",
     "thumb": "service/04.jpg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
       "service/details/03.jpg"
     ],
-    "aboutServiceDesc": "<p>Voluptatum delenitied atqued corrupti is eseted quased stias cepturi sint aete non provident, csimilique sunt dunt labore ete dolored magnam aliquam quaerat Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</p>   <p>Corrupti deleniti atque magnam is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat Neque porro quisquam est dolorem</p>",
+    "aboutServiceDesc": "<p>With the expectation of providing ongoing support to our students abroad, SBS Career Advanced offers support our students to build an informative resume, a concise and decision-ready cover letter, and impressive interview ability. </p> <p>All what we wish is to smoothen the career pathway for our students abroad. </p>",
     "features": [
-      "Voluptatum deleniti atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat",
-      "Atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat"
+      "CV improvement",
+      "Cover letter enhancing",
+      "Interview coaching",
+      "Key Selection Criteria training",
+      "Job searching skills",
+      "Intern opportunities"
     ]
   },
   {
     "id": 5,
     "title": "SBS Migration",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
+    "shortDesc": "Our experiences agents can offer migration advice on any visa.",
     "thumb": "service/05.jpg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
       "service/details/03.jpg"
     ],
-    "aboutServiceDesc": "<p>Voluptatum delenitied atqued corrupti is eseted quased stias cepturi sint aete non provident, csimilique sunt dunt labore ete dolored magnam aliquam quaerat Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</p>   <p>Corrupti deleniti atque magnam is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat Neque porro quisquam est dolorem</p>",
+    "aboutServiceDesc": "<p>With those who want to migrate to a foreign country where they are studying or have ever studied, SBS Immigration will provide professional advice and support to help our students to successfully settle down to their desired country of choice. All supportive procedures will be performed by qualified staffs. </p>",
     "features": [
-      "Voluptatum deleniti atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat",
-      "Atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat"
+      "Skilled migration visas (189, 190, 491, 191)",
+      "Business visas (188, 132)",
+      "Sponsorship migration visas (482, 186, 494)",
+      "Partner visas (820-801, 309-100, 300)",
+      "Short term visas (407, 462)"
     ]
   },
   {
     "id": 6,
     "title": "Business Consultancy",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
+    "shortDesc": "Start making necessary changes in your business today.",
     "thumb": "service/06.jpg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
       "service/details/03.jpg"
     ],
-    "aboutServiceDesc": "<p>Voluptatum delenitied atqued corrupti is eseted quased stias cepturi sint aete non provident, csimilique sunt dunt labore ete dolored magnam aliquam quaerat Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</p>   <p>Corrupti deleniti atque magnam is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat Neque porro quisquam est dolorem</p>",
+    "aboutServiceDesc": "<p>With more than 10 years of experience in business planning, strategic management, and business transformation, SBS Consultancy Team dedicates to bring clients with best practices and updated business solutions to boost business performances.</p> <p>Our consultancy arm aims at optimising and modernising the organisational structure of client’s business to maximise flexibilities and increase economical benefits while minimising operational expenses. We adopt the mentor-mentee approach to facilitate your client all along their development journeys. </p>",
     "features": [
-      "Voluptatum deleniti atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat",
-      "Atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat"
+      
     ]
   }
 ]

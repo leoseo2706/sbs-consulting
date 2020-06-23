@@ -2,37 +2,25 @@
   {
     "id": 1,
     "counterNumber": 100,
-    "counterText": "GPA of 7.0 or above/IELTS of 6.0 or above",
-    "type" : "percentage"
+    "counterText": "GPA of 7.0 or above \n IELTS of 6.0 or above",
+    "type" : "%"
   },
   {
     "id": 2,
     "counterNumber": 96.59,
-    "counterText": "Scholarship Granted",
-    "type" : "percentage"
+    "counterText": "scholarship granted",
+    "type" : "%"
   },
   {
     "id": 3,
     "counterNumber": 22.56,
-    "counterText": "Tution Fee and Stipend Scholarship",
-    "type" : "percentage"
+    "counterText": "tution fee and Stipend scholarship",
+    "type" : "%"
   },
   {
     "id": 4,
-    "counterNumber": 97,
-    "counterText": "students sent to AU institutions yearly",
-    "type" : "number"
-  },
-  {
-    "id": 5,
-    "counterNumber": 16,
-    "counterText": "students sent to UK universities yearly",
-    "type" : "number"
-  },
-  {
-    "id": 6,
-    "counterNumber": 12,
-    "counterText": "students sent to Netherlands universities yearly",
-    "type" : "number"
+    "counterNumber": 100,
+    "counterText": "students received maximised scholarships",
+    "type" : "%"
   }
 ]

@@ -8,18 +8,19 @@ import serviceTopBg from '../../assets/img/service/service-bg.jpg'
 function Services({classes}) {
     return (
         <div className={`service-area-wrapper ${classes}`}>
-            <div className="service-area-top" style={{backgroundImage: `url("${serviceTopBg}")`}}>
-                <div className="container">
+            {/* <div className="service-area-top" style={{backgroundImage: `url("${serviceTopBg}")`}}> */}
+            <div className="service-area-top">
+                <div className="container custom-background-2">
                     <div className="row">
                         <div className="col-lg-6 col-xl-5 m-auto text-center">
                             {/* <SectionTitle variant="light" title="Our Services" heading="All-In-One Service" /> */}
-                            <SectionTitle variant="light" heading="All-In-One Service" />
+                            <SectionTitle variant="light" title="OUR SERVICES" heading="All-In-One Service" />
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="service-content-area">
+            <div className="service-content-area custom-background">
                 <div className="container">
                     <div className="row mtn-30">
                         {

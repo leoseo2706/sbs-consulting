@@ -3,7 +3,7 @@ import Text from "../UI/Text";
 import Widget from "../UI/Widget";
 import List from "../UI/List";
 import LI from "../UI/List/Item";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Logo from '../../assets/img/logo-dark.png'
 
 function Footer() {
@@ -15,15 +15,15 @@ function Footer() {
                         <div className="widget-item">
                             <div className="about-widget">
                                 <Link to={`${process.env.PUBLIC_URL + "/"}`}>
-                                    <img src={Logo} alt="Logo"/>
+                                    <img style={{ opacity: 0.9 }} src={Logo} alt="Logo" />
                                 </Link>
 
-                                <Text>
+                                {/* <Text>
                                     During the summer my wife and I got to go on an amazing road trip in Vancouver.
-                                </Text>
+                                </Text> */}
 
                                 <Text classes="copyright-txt">
-                                    &copy; {new Date().getFullYear()} Businex Ltd. All Rights Reserved.
+                                    &copy; {new Date().getFullYear()} SBS Investment & Consultancy JSC.<br/> All rights reserved.
                                 </Text>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ function Footer() {
                                 <LI><Link to={`${process.env.PUBLIC_URL + "/about"}`}>Our company</Link></LI>
                                 <LI><Link to={`${process.env.PUBLIC_URL + "/contact"}`}>Contact us</Link></LI>
                                 <LI><Link to={`${process.env.PUBLIC_URL + "/services"}`}>Our services</Link></LI>
-                                <LI><Link to={`${process.env.PUBLIC_URL + "/"}`}>Careers</Link></LI>
+                                <LI><Link to={`${process.env.PUBLIC_URL + "/"}`}>Blog</Link></LI>
                             </List>
                         </Widget>
                     </div>
@@ -43,10 +43,8 @@ function Footer() {
                     <div className="col-md-4 col-lg-2 ml-auto">
                         <Widget title="Social Links">
                             <List classes="widget-list">
-                                <LI><Link to="https://facebook.com/hasthemes/" target={'_blank'}>Facebook</Link></LI>
-                                <LI><Link to="https://twitter.com/hasthemes/" target={'_blank'}>Twitter</Link></LI>
-                                <LI><Link to="https://dribbble.com/hastech/" target={'_blank'}>Dribbble</Link></LI>
-                                <LI><Link to="https://www.instagram.com/" target={'_blank'}>Instagram</Link></LI>
+                                <LI>< a href="https://www.facebook.com/sbsscholarship.edu.vn">Facebook</a></LI>
+                                <LI><a href="http://sbsscholarship.edu.vn/">Archive</a></LI>
                             </List>
                         </Widget>
                     </div>
@@ -54,9 +52,13 @@ function Footer() {
                     <div className="col-md-4 col-lg-3">
                         <Widget title="Contact Us">
                             <address>
-                                2005 Stokes Isle Apartment. 896, Washington 10010, USA <br/>
-                                https://example.com <br/>
-                                (+68) 120034509
+                                No 49 Lane 36, Dao Tan Street, Ba Dinh District, Hanoi<br />
+                                <a href="tel:+84437666888">(+84) 437 666 888</a>
+                            </address>
+                            <br />
+                            <address>
+                                Suite 1780 - 570 Bourke Street Melbourne VIC 3000<br />
+                                <a href="tel:+61452363168">(+61) 452 363 168</a>
                             </address>
                         </Widget>
                     </div>

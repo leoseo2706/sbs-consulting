@@ -20,11 +20,12 @@ class FunfactItem extends Component {
         return (
             <div className="col-6 col-md-3 text-center">
                 <div className="counter-item">
-                    <h2 className="counter-number">
+                    <h2 className="counter-number fun-fact-color">
                         <CountUp start={this.state.appear ? 0 : null} end={this.props.counterNumber}>
                             {({ countUpRef }) => (
                                 <div>
-                                    <span ref={countUpRef} /> {this.props.type == 'percentage' ? '%' : ''}
+                                    <span ref={countUpRef} />
+                                    {this.props.type == 'number' ? '' : ' ' + this.props.type}
                                     <VisibilitySensor
                                         onChange={(isVisible) => this.visibleChangeHandler(isVisible)}>
                                         <span className="sr-only">+</span>
@@ -33,7 +34,7 @@ class FunfactItem extends Component {
                             )}
                         </CountUp>
                     </h2>
-                    <h6 className="counter-txt">{this.props.counterText}</h6>
+                    <h6 className="counter-txt fun-fact-color">{this.props.counterText}</h6>
                 </div>
             </div>
         );

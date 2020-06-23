@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 /*
 * @ All pages Import
@@ -27,26 +27,26 @@ const App = () => {
                 <Switch>
                     {/* <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={Demo}/>
                     <Route exact path={`${process.env.PUBLIC_URL + '/home-one'}`} component={HomeOne}/> */}
-                    <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={HomeTwo}/>
-                    <Route exact path={`${process.env.PUBLIC_URL + '/home-two'}`} component={HomeTwo}/>
-                    <Route exact path={`${process.env.PUBLIC_URL + '/services'}`} component={Service}/>
-                    <Route path={`${process.env.PUBLIC_URL + '/service/:serviceID'}`} component={ServiceDetails}/>
+                    <Route exact path={`${process.env.PUBLIC_URL + '/'}`, `${process.env.PUBLIC_URL + '/home'}`}
+                        component={HomeTwo} />
+                    <Route exact path={`${process.env.PUBLIC_URL + '/services'}`} component={Service} />
+                    <Route path={`${process.env.PUBLIC_URL + '/service/:serviceID'}`} component={ServiceDetails} />
                     <Route exact path={`${process.env.PUBLIC_URL + "/blog-grid-right-sidebar"}`}
-                           component={BlogGridRightSidebar}/>
+                        component={BlogGridRightSidebar} />
                     <Route exact path={`${process.env.PUBLIC_URL + "/blog-grid-left-sidebar"}`}
-                           component={BlogGridLeftSidebar}/>
+                        component={BlogGridLeftSidebar} />
                     <Route exact path={`${process.env.PUBLIC_URL + "/blog-grid-without-sidebar"}`}
-                           component={BlogGridWithoutSidebar}/>
+                        component={BlogGridWithoutSidebar} />
                     <Route exact path={`${process.env.PUBLIC_URL + "/blog-list-left-sidebar"}`}
-                           component={BlogListLeftSidebar}/>
+                        component={BlogListLeftSidebar} />
                     <Route exact path={`${process.env.PUBLIC_URL + "/blog-list-right-sidebar"}`}
-                           component={BlogListRightSidebar}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/blog/:blogID"}`} component={BlogDetailsPage}/>
-                    <Route exact path={`${process.env.PUBLIC_URL + "/team"}`} component={Team}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/team-member/:teamID"}`} component={TeamDetails}/>
-                    <Route exact path={`${process.env.PUBLIC_URL + "/about"}`} component={About}/>
-                    <Route exact path={`${process.env.PUBLIC_URL + "/contact"}`} component={Contact}/>
-                    <Route exact component={Error404}/>
+                        component={BlogListRightSidebar} />
+                    <Route path={`${process.env.PUBLIC_URL + "/blog/:blogID"}`} component={BlogDetailsPage} />
+                    <Route exact path={`${process.env.PUBLIC_URL + "/team"}`} component={Team} />
+                    <Route path={`${process.env.PUBLIC_URL + "/team-member/:teamID"}`} component={TeamDetails} />
+                    <Route exact path={`${process.env.PUBLIC_URL + "/about"}`} component={About} />
+                    <Route exact path={`${process.env.PUBLIC_URL + "/contact"}`} component={Contact} />
+                    <Route exact component={Error404} />
                 </Switch>
             </ScrollToTop>
         </Router>

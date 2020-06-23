@@ -1,9 +1,9 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import Logo from './Logo'
 import Navbar from './Navbar/Navbar'
 import HeaderConfig from './HeaderConfig'
 
-class Header extends Component{
+class Header extends Component {
 
     componentDidMount() {
         window.addEventListener('scroll', this.isSticky);
@@ -13,23 +13,22 @@ class Header extends Component{
         window.removeEventListener('scroll', this.isSticky);
     }
 
-    isSticky = (e)=>{
+    isSticky = (e) => {
         const header = document.querySelector('header');
         const scrollTop = window.scrollY;
         scrollTop >= 250 ? header.classList.add('sticky') : header.classList.remove('sticky');
     };
 
-    render(){
+    render() {
         return (
-            /*style={{backgroundColor: "black"}} */
-            <header className="header-area">
+            <header className="header-area custom-background">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-5 col-lg-2">
-                            <Logo/>
+                            <Logo />
                         </div>
 
-                        <div className="col-lg-7 d-none d-lg-block">
+                        <div className="col-lg-7 d-none d-lg-block" style={{fontWeight: "bold"}}>
                             <div className="navigation-area mt-lg-3">
                                 <Navbar />
                             </div>

@@ -1,18 +1,27 @@
 [
   {
     "id": 1,
-    "title": "Nurturing Your Dreams",
-    "text": "Pathway to success.",
+    "title": "SBS English",
+    "text": "Nurturing your Dreams",
     "bg": "slider/h-2-01.png",
     "btnText": "Learn More",
     "btnLink": "/about-1"
   },
   {
     "id": 2,
-    "title": "Let us help you",
-    "text": "Pathway to success.",
+    "title": "SBS Scholarship",
+    "text": "Empowering your Talents",
     "bg": "slider/h-2-02.png",
     "btnText": "Learn More",
     "btnLink": "/about"
+  },
+  {
+    "id": 3,
+    "title": "SBS Immigration",
+    "text": "Systemarising your Success",
+    "bg": "slider/h-2-03.jpg",
+    "btnText": "Learn More",
+    "btnLink": "/about"
   }
+  
 ]

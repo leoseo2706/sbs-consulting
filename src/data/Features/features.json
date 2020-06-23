@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "title": "Creative Team",
-    "text": "Our team is always ready to help you.",
+    "title": "Dedication",
+    "text": "Dedicate to customers, job assignments, and personal developments.",
     "imgSrc": "feature/01.png"
   },
   {
     "id": 2,
-    "title": "Best Consultation",
-    "text": "Our team of experts strike to provide the best consulting service.",
+    "title": "Commitment",
+    "text": "Commit to pursuing the goals and interests of customers till the final stage.",
     "imgSrc": "feature/02.png"
   },
   {
     "id": 3,
-    "title": "5 Star Review",
-    "text": "Your satisfactions are the utmost importance to us.",
+    "title": "Sincerity",
+    "text": "Regard customers, colleagues, and partners as family members.",
     "imgSrc": "feature/03.png"
   }
 ]

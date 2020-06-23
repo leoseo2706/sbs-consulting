@@ -1,7 +1,8 @@
 import React from 'react';
 import SlickSlider from "../UI/Slick";
 import LogoItem from './LogoItem'
-import BrandLogos from '../../data/BrandLogo/brandlogo'
+import BrandLogos from '../../data/BrandLogo/brandlogo';
+import SectionTitle from "../UI/SectionTitle/index";
 
 function BrandLogo(props) {
     const settings = {
@@ -33,12 +34,19 @@ function BrandLogo(props) {
     return (
         <div className="brand-logo-area sm-top">
             <div className="container">
-                <div className="row">
+
+                <div className="row bg-offwhite" style={{ height: "100px", paddingTop: "20px" }}>
+                    <div className="col-12 text-center">
+                        <SectionTitle title="OUR PARTNERS" heading="From around the world" />
+                    </div>
+                </div>
+
+                <div className="row" style={{marginTop: "50px"}}>
                     <div className="col-12">
                         <SlickSlider settings={settings}>
                             {
                                 BrandLogos.map(logo => (
-                                    <LogoItem key={logo.id} logoSrc={logo.logoSrc} URL={logo.URL}/>
+                                    <LogoItem key={logo.id} logoSrc={logo.logoSrc} URL={logo.URL} />
                                 ))
                             }
                         </SlickSlider>

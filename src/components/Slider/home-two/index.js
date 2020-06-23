@@ -6,13 +6,13 @@ import {Link} from "react-router-dom";
 
 const NextArrow = ({className, onClick}) => {
     return (
-        <button className={className} onClick={onClick}><i className="fa fa-angle-right"/></button>
+        <button className={className} onClick={onClick}><i className="fa fa-angle-right custom-text-no-hover"/></button>
     )
 };
 
 const PrevArrow = ({className, onClick}) => {
     return (
-        <button className={className} onClick={onClick}><i className="fa fa-angle-left"/></button>
+        <button className={className} onClick={onClick}><i className="fa fa-angle-left custom-text-no-hover"/></button>
     )
 };
 
@@ -39,7 +39,7 @@ const Slider = () => {
                     SliderData.map(item => (
                         <div key={item.id}>
                             <div className="slider-item"
-                                 style={{backgroundImage: `url(${require('../../../assets/img/' + item.bg)})`}}>
+                                 style={{height: "450px", margin: "0 auto", width: "900px", backgroundImage: `url(${require('../../../assets/img/' + item.bg)})`}}>
                                 <div className="container">
                                     <div className="row">
                                         <div className="col-lg-10 m-auto text-center">
