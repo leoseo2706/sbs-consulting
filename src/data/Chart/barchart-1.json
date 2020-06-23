@@ -1,0 +1,14 @@
+[
+    {
+        "year": "2016-2017", "Netherlands": 1, "UK": 2, "Australia": 22
+    },
+    {
+        "year": "2017-2018", "Netherlands": 3, "UK": 6, "Australia": 50
+    },
+    {
+        "year": "2018-2019", "Netherlands": 7, "UK": 10, "Australia": 80
+    },
+    {
+        "year": "2019-2020", "Netherlands": 12, "UK": 16, "Australia": 126
+    }
+]

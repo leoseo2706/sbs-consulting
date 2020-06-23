@@ -5,11 +5,11 @@ import quote from '../../../assets/img/icons/quote.png'
 import SectionTitle from "../../UI/SectionTitle";
 
 const NextArrow = ({ className, onClick }) => {
-    return <button className={className} onClick={onClick}><i className="fa fa-long-arrow-right" /></button>
+    return <button className={className} onClick={onClick}><i className="fa fa-long-arrow-right custom-button" /></button>
 };
 
 const PrevArrow = ({ className, onClick }) => {
-    return <button className={className} onClick={onClick}><i className="fa fa-long-arrow-left" /></button>
+    return <button className={className} onClick={onClick}><i className="fa fa-long-arrow-left custom-button" /></button>
 };
 
 class Testimonial extends Component {

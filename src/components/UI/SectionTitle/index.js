@@ -2,16 +2,18 @@ import React from 'react';
 import parse from 'html-react-parser'
 
 function SectionTitle(props) {
+
     return (
-        <div className={`section-title ${props.variant === "light" ? "section-title--light" : ""}`}>
-            <h6>{props.title}</h6>
-            <h2>{parse(props.heading)}</h2>
+        <div style={props.title == "OUR SERVICES" ? { paddingTop: "21px" } : {}}
+            className={`section-title custom-text-no-hover ${props.variant === "light" ? "section-title--light" : ""}`}>
+            {props.title && <h6 className="custom-color">{props.title}</h6>}
+            {props.heading && <h2 className="custom-color">{parse(props.heading)}</h2>}
             {(() => {
                 if (props.text) {
-                    return <p>{parse(props.text)}</p>
+                    return <p className="custom-color">{parse(props.text)}</p>
                 }
                 if (props.tagline) {
-                    return <h5 className="tagline">{parse(props.tagline)}</h5>
+                    return <h5 className="custom-color">{parse(props.tagline)}</h5>
                 }
             })()}
         </div>

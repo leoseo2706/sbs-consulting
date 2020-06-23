@@ -1,0 +1,57 @@
+.custom-background {
+    background-color: white !important;
+}
+
+.custom-background-2{
+    background-color: #f8f9fc !important;
+    height: 150px;
+    border: none;
+}
+
+.service-area-top:before{
+    background-color: #f8f9fc !important;
+    border: none;
+    height: 0px;
+}
+
+.custom-color {
+    color: #080b1a !important;
+}
+
+.custom-text-no-hover {
+    color: #203752 !important;
+}
+
+.custom-text {
+    color: #203752 !important;
+}
+
+.custom-text:hover {
+    color: white !important;
+    background-color: #203752 !important;
+}
+
+.custom-button {
+    color: #203752 !important;
+}
+
+
+.fun-fact-area:before {
+    background-color: #f8f9fc !important;
+}
+
+.fun-fact-color {
+    color: #203752 !important;
+}
+
+.test {
+    color: red !important;
+    background-color: yellow !important;
+    border: solid 1px red;
+}
+
+
+body {
+    background-color: white !important;
+    color: #203752 !important;
+}
