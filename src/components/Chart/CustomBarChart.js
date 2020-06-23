@@ -54,7 +54,7 @@ export default class CustomBarChart extends PureComponent {
                 }}
             >
                 {/* <CartesianGrid strokeDasharray="3 3" /> */}
-                <XAxis dataKey="year" />
+                <XAxis dataKey={this.state.key} />
                 <YAxis />
                 <Tooltip />
                 <Legend />
