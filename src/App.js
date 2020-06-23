@@ -27,8 +27,8 @@ const App = () => {
                 <Switch>
                     {/* <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={Demo}/>
                     <Route exact path={`${process.env.PUBLIC_URL + '/home-one'}`} component={HomeOne}/> */}
-                    <Route exact path={`${process.env.PUBLIC_URL + '/'}`, `${process.env.PUBLIC_URL + '/home'}`}
-                        component={HomeTwo} />
+                    <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={HomeTwo} />
+                    <Route exact path={`${process.env.PUBLIC_URL + '/home'}`} component={HomeTwo} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/services'}`} component={Service} />
                     <Route path={`${process.env.PUBLIC_URL + '/service/:serviceID'}`} component={ServiceDetails} />
                     <Route exact path={`${process.env.PUBLIC_URL + "/blog-grid-right-sidebar"}`}
