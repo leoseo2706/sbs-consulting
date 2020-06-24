@@ -5,7 +5,7 @@
     "text": "Nurturing your Dreams",
     "bg": "slider/h-2-01.png",
     "btnText": "Learn More",
-    "btnLink": "/about-1"
+    "btnLink": "/service/sbs-english?id=1"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "text": "Empowering your Talents",
     "bg": "slider/h-2-02.png",
     "btnText": "Learn More",
-    "btnLink": "/about"
+    "btnLink": "/service/sbs-english?id=2"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "text": "Systemarising your Success",
     "bg": "slider/h-2-03.jpg",
     "btnText": "Learn More",
-    "btnLink": "/about"
+    "btnLink": "/service/sbs-english?id=3"
   }
   
 ]

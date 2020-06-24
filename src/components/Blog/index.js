@@ -10,7 +10,7 @@ function Blog() {
             <div className="container ">
                 <div className="row bg-offwhite" style={{height: "135px", paddingTop: "10px"}}>
                     <div className="col-12 text-center">
-                        <SectionTitle title="OUR BLOGS" heading="Latest update <br> from our blog post"/>
+                        <SectionTitle title="OUR CHANNELS" heading="Latest update <br> from our channels"/>
                     </div>
                 </div>
 

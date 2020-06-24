@@ -19,18 +19,19 @@ const PageService = () => {
         <Fragment>
             <Header/>
             <PageHeader
-                bgImg={require('../assets/img/page-header.jpg')}
-                title="OUR SERVICES"
-                content="Businex always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+                bgImg={require('../assets/img/service.jpg')}
+                title="OUR VISION"
+                content="To become the most trusted Vietnamese educational agent."
             />
             <PageAbout
-                title={'Our Services'}
-                heading="Provide best <br/> Business Solutions"
+                title={'Our Vision'}
+                heading="To become <br/>the most trusted Vietnamese educational agent"
                 thumb={ServiceThumb}
-                content="<b>Businex</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+                content="<b>Step by Step Investment & Consultancy</b>, strives its best to gradually become the most trusted Vietnamese brand for IELTS Training, Overseas Study Consultancy, Scholarship Mentoring, Employment Coaching and Support, Migration and Property Investment
+                Consultancy & Business Management Consultancy."
             />
             <Services classes="sm-top"/>
-            <PricingTable/>
+            {/* <PricingTable/> */}
             <Testimonial/>
             <BrandLogo/>
             <Funfact classes="sp-top"/>
