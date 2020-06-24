@@ -13,6 +13,8 @@ import Features from "../components/Features";
 import Testimonial from "../components/Testimonials/home-two";
 import Team from "../components/Team/home-two";
 
+// import aboutData from "../data/About/home-two.json";
+
 import ServiceThumb from '../assets/img/about.jpg'
 
 const PageAbout = () => {
@@ -20,15 +22,14 @@ const PageAbout = () => {
         <Fragment>
             <Header/>
             <PageHeader
-                bgImg={require('../assets/img/page-header.jpg')}
+                bgImg={require('../assets/img/about.jpg')}
                 title="ABOUT US"
-                content="Businex always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+                content="SBS is established with a commitment and dedication to create a single platform for talented students to shine and transform their lives into better versions. 'No matter how your start is, your journey defines who you really are'. SBS follows the simple principle of “Step By Step” to guide you and its operations."
             />
             <About
                 title={'Our Team'}
                 heading="Meet Our <br/> Expert Member"
                 thumb={ServiceThumb}
-                content="<b>Businex</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
             />
             <Services/>
             <Features classes={'sm-top'}/>

@@ -16,11 +16,15 @@ const ContactPage = () => {
                         </div>
 
                         <div className="col-lg-4">
-                            <div className="contact-information contact-method">
+                            <div className="contact-information contact-method custom-text-no-hover"
+                            style={{backgroundColor: "#f8f9fc"}}>
                                 <div className="contact-info-con">
-                                    <h3>Contact Info</h3>
+                                    <h3 className="custom-text-no-hover">Contact Info</h3>
                                     <ContactInfo
-                                        address="2005 Stokes Isle Apartment <br/>896, Washington 10010, USA <br/>https://example.com <br/>(+68) 120034509"
+                                        address1='No 49 Lane 36, Dao Tan Street,<br /> Ba Dinh District, Hanoi<br />
+                                        <a href="tel:+84437666888">(+84) 437 666 888</a>' 
+                                        address2='Suite 1780 - 570 Bourke Street Melbourne VIC 3000<br />
+                                        <a href="tel:+61452363168">(+61) 452 363 168</a>'
                                     />
                                 </div>
                             </div>

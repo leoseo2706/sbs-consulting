@@ -8,8 +8,8 @@ const PageHeader = ({bgImg,title,content}) => {
                     <div className="col-lg-10 col-xl-8 m-auto text-center">
                         <div className="page-header-content-inner">
                             <div className="page-header-content">
-                                <h2>{title}</h2>
-                                <p>{content}</p>
+                                {title && <h2>{title}</h2>}
+                                {content && <p>{content}</p>}
                             </div>
                         </div>
                     </div>

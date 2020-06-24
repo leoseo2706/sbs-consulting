@@ -1,4 +1,4 @@
-import React,{Fragment} from 'react';
+import React, { Fragment } from 'react';
 import PageHeader from "../../components/PageHeader";
 import PageWrapper from "../../components/PageWrapper";
 import ServiceContentWrap from "./ServiceContentWrap";
@@ -17,13 +17,13 @@ const ServiceDetails = () => {
     const currentService = ServicesData.indexOf(service);
     let prevService;
     let nextService;
-    currentService === 0 ? prevService = ServicesData[currentService] : prevService = ServicesData[currentService-1];
-    currentService+1 === ServicesData.length ? nextService = ServicesData[currentService] : nextService = ServicesData[currentService+1];
+    currentService === 0 ? prevService = ServicesData[currentService] : prevService = ServicesData[currentService - 1];
+    currentService + 1 === ServicesData.length ? nextService = ServicesData[currentService] : nextService = ServicesData[currentService + 1];
 
     return (
         <Fragment>
             <PageHeader
-                bgImg={require('../../assets/img/page-header.jpg')}
+                bgImg={require('../../assets/img/' + service.thumb)}
                 title={service.title}
                 content={service.shortDesc}
             />
@@ -40,7 +40,7 @@ const ServiceDetails = () => {
                     <SidebarItem title="Services">
                         <List classes="service-list">
                             {
-                                ServicesData.map(serviceItem=>(
+                                ServicesData.map(serviceItem => (
                                     <LI key={serviceItem.id}>
                                         <a href={`${process.env.PUBLIC_URL + `/service/${serviceItem.title.split(' ').join('-').toLowerCase()}?id=${serviceItem.id}`}`}>
                                             {serviceItem.title}
@@ -51,16 +51,21 @@ const ServiceDetails = () => {
                         </List>
                     </SidebarItem>
 
-                    {/* <SidebarItem title="Download Brochure">
+                    <SidebarItem title="Download Brochure">
                         <List classes="service-list">
-                            <LI><Anchor path='/'><i className="fa fa-file-pdf-o"/>Brochures.PDF</Anchor></LI>
-                            <LI><Anchor path='/'><i className="fa fa-file-word-o"/>Brochures.DOC</Anchor></LI>
+                            <LI>
+                                <Anchor
+                                    name="Brochures.pdf"
+                                    path={process.env.PUBLIC_URL + '/doc/Company-Profile-web.pdf'}>
+                                    <i className="fa fa-file-pdf-o" />Brochures.pdf
+                                </Anchor>
+                            </LI>
                         </List>
-                    </SidebarItem> */}
+                    </SidebarItem>
                 </Sidebar>
             </PageWrapper>
 
-            <RelatedServices/>
+            <RelatedServices />
         </Fragment>
     );
 };

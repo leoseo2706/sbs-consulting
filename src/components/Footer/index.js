@@ -18,12 +18,12 @@ function Footer() {
                                     <img style={{ opacity: 0.9 }} src={Logo} alt="Logo" />
                                 </Link>
 
-                                {/* <Text>
-                                    During the summer my wife and I got to go on an amazing road trip in Vancouver.
-                                </Text> */}
+                                <Text>
+                                    <i>No matter how your start is, your journey defines who you really are.</i>
+                                </Text>
 
                                 <Text classes="copyright-txt">
-                                    &copy; {new Date().getFullYear()} SBS Investment & Consultancy JSC.<br/> All rights reserved.
+                                    &copy; {new Date().getFullYear()} SBS Investment & Consultancy JSC.<br /> All rights reserved.
                                 </Text>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ function Footer() {
                     <div className="col-md-4 col-lg-3">
                         <Widget title="Contact Us">
                             <address>
-                                No 49 Lane 36, Dao Tan Street, Ba Dinh District, Hanoi<br />
+                                No 49 Lane 36, Dao Tan Street,<br /> Ba Dinh District, Hanoi<br />
                                 <a href="tel:+84437666888">(+84) 437 666 888</a>
                             </address>
                             <br />

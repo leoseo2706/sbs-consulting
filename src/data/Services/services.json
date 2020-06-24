@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "SBS English",
-    "shortDesc": "Academic support for SBS students.",
+    "shortDesc": "The place to nurture your dreams.",
     "thumb": "service/01.jpeg",
     "previewImages": [
       "service/details/01.jpg",
@@ -19,7 +19,7 @@
   {
     "id": 2,
     "title": "SBS Scholarships",
-    "shortDesc": "Scholarship advice for SBS customers.",
+    "shortDesc": "The place to empower your talents.",
     "thumb": "service/02.jpg",
     "previewImages": [
       "service/details/01.jpg",
@@ -41,7 +41,7 @@
   {
     "id": 3,
     "title": "SBS Education",
-    "shortDesc": "We provide the best educational services for students.",
+    "shortDesc": "The place to start your journey.",
     "thumb": "service/03.jpg",
     "previewImages": [
       "service/details/01.jpg",
@@ -61,7 +61,7 @@
   {
     "id": 4,
     "title": "SBS Career Advancement",
-    "shortDesc": "Discover the right career direction for you.",
+    "shortDesc": "The place to advance your experience.",
     "thumb": "service/04.jpg",
     "previewImages": [
       "service/details/01.jpg",
@@ -81,7 +81,7 @@
   {
     "id": 5,
     "title": "SBS Migration",
-    "shortDesc": "Our experiences agents can offer migration advice on any visa.",
+    "shortDesc": "The place to settle your life.",
     "thumb": "service/05.jpg",
     "previewImages": [
       "service/details/01.jpg",
@@ -100,7 +100,7 @@
   {
     "id": 6,
     "title": "Business Consultancy",
-    "shortDesc": "Start making necessary changes in your business today.",
+    "shortDesc": "The place to systemise your success.",
     "thumb": "service/06.jpg",
     "previewImages": [
       "service/details/01.jpg",
