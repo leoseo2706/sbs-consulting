@@ -7,17 +7,15 @@ import BlogData from "../../data/Blog/blog";
 
 const BlogDetailsPage = ({sidebar}) => {
     const post_id = new URLSearchParams(window.location.search).get("id");
-    console.log(post_id);
     const post = BlogData.find(post => post.id === parseInt(post_id));
-    console.log(post);
 
     return (
         <Fragment>
-            <PageHeader
+            {/* <PageHeader
                 bgImg={require('../../assets/img/page-header.jpg')}
                 title={post.title}
                 content={post.excerpt}
-            />
+            /> */}
 
             <PageWrapper classes={'blog-details-page-content sp-y'}>
                 <div className={!sidebar ? 'col-12' : 'col-lg-9'}>
