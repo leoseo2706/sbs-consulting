@@ -6,8 +6,7 @@ import { Link } from "react-router-dom";
 
 const About = ({ content }) => {
     return (
-        <div className="home-two-about-area"
-            style={{ backgroundImage: `url(${aboutThumb})`}}>
+        <div className="home-two-about-area">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-12 d-lg-none">
@@ -16,7 +15,7 @@ const About = ({ content }) => {
                         </figure>
                     </div>
 
-                    <div className="col-lg-6">
+                    <div className="col-lg-5">
                         <div className="about-content about-content--2">
                             <h6 className="custom-color">{aboutData.title}</h6>
                             <h2 className="custom-color">{parse(aboutData.heading)}</h2>
@@ -25,6 +24,9 @@ const About = ({ content }) => {
                             <Link to={`${process.env.PUBLIC_URL + aboutData.btnLink}`} className="btn-about custom-color">{aboutData.btnText} <i className="fa fa-angle-double-right" /></Link>
                         </div>
                     </div>
+                    <div className="col-lg-7"
+                        style={{ height: "393px", backgroundImage: `url(${aboutThumb})` }}
+                    />
                 </div>
             </div>
         </div>
