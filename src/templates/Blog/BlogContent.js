@@ -3,18 +3,28 @@ import BlogItem from "../../components/Blog/blogItem";
 import BlogItemList from "../../components/Blog/blogItemList";
 import Pagination from "../../components/Pagination";
 
-import BlogData from '../../data/Blog/blog'
-
 class BlogContent extends Component {
-    state = {
-        posts: [],
-        currentPage: 1,
-        postsPerPage: 6
-    };
+
+
+    constructor(props) {
+        super(props);
+    
+        this.state = {
+            posts: [],
+            currentPage: 1,
+            postsPerPage: 6
+        }
+    }
+
+    componentWillReceiveProps(nextProps) {
+        this.setState({
+            posts: nextProps.Blogs.reverse()
+        })
+    }
 
     componentDidMount() {
         this.setState({
-            posts: BlogData.reverse()
+            posts: this.props.Blogs
         })
     }
 

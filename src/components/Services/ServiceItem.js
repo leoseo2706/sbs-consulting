@@ -8,7 +8,7 @@ function ServiceItem(props) {
             <div className="service-item">
                 <figure className="service-thumb">
                     <Link to={`${process.env.PUBLIC_URL + serviceURL}`}>
-                        <img src={require('../../assets/img/' + props.thumb)} alt={props.title}/>
+                        <img width="370px" height="208px" src={require('../../assets/img/' + props.thumb)} alt={props.title}/>
                     </Link>
 
                     <figcaption className="service-txt">

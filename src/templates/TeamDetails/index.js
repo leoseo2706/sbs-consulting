@@ -13,9 +13,9 @@ const TeamDetailsPage = () => {
     return (
         <Fragment>
             <PageHeader
-                bgImg={require('../../assets/img/page-header.jpg')}
-                title={teamMember.name}
-                content={teamMember.designation}
+                bgImg={require('../../assets/img/team-bg.jpg')}
+                title="Meet Our Team"
+                content="Step By Step Investment & Consultancy Team"
             />
 
             <PageWrapper classes={'member-details-wrapper sm-top'}>

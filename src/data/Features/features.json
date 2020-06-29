@@ -16,5 +16,17 @@
     "title": "Sincerity",
     "text": "Regard customers, colleagues, and partners as family members.",
     "imgSrc": "feature/03.png"
+  },
+  {
+    "id": 4,
+    "title": "Perceptiveness",
+    "text": "Quickly and accurately capture information to deliver the best quality service.",
+    "imgSrc": "feature/04.png"
+  },
+  {
+    "id": 5,
+    "title": "Ethic",
+    "text": "Put work ethical standards on the highest priorities.",
+    "imgSrc": "feature/05.png"
   }
 ]

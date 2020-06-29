@@ -31,16 +31,15 @@ const App = () => {
                     <Route exact path={`${process.env.PUBLIC_URL + '/home'}`} component={HomeTwo} />
                     <Route exact path={`${process.env.PUBLIC_URL + '/services'}`} component={Service} />
                     <Route path={`${process.env.PUBLIC_URL + '/service/:serviceID'}`} component={ServiceDetails} />
-                    <Route exact path={`${process.env.PUBLIC_URL + "/blog-grid-right-sidebar"}`}
-                        component={BlogGridRightSidebar} />
-                    <Route exact path={`${process.env.PUBLIC_URL + "/blog-grid-left-sidebar"}`}
-                        component={BlogGridLeftSidebar} />
-                    <Route exact path={`${process.env.PUBLIC_URL + "/blog-grid-without-sidebar"}`}
+                    {/* <Route exact path={`${process.env.PUBLIC_URL + "/blog-grid-right-sidebar"}`}
+                        component={BlogGridRightSidebar} /> */}
+                    <Route exact path={`${process.env.PUBLIC_URL + "/blog"}`} component={BlogGridLeftSidebar} />
+                    {/* <Route exact path={`${process.env.PUBLIC_URL + "/blog-grid-without-sidebar"}`}
                         component={BlogGridWithoutSidebar} />
                     <Route exact path={`${process.env.PUBLIC_URL + "/blog-list-left-sidebar"}`}
                         component={BlogListLeftSidebar} />
                     <Route exact path={`${process.env.PUBLIC_URL + "/blog-list-right-sidebar"}`}
-                        component={BlogListRightSidebar} />
+                        component={BlogListRightSidebar} /> */}
                     <Route path={`${process.env.PUBLIC_URL + "/blog/:blogID"}`} component={BlogDetailsPage} />
                     <Route exact path={`${process.env.PUBLIC_URL + "/team"}`} component={Team} />
                     <Route path={`${process.env.PUBLIC_URL + "/team-member/:teamID"}`} component={TeamDetails} />

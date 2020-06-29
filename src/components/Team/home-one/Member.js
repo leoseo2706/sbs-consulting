@@ -1,5 +1,5 @@
-import React,{Fragment} from 'react';
-import {Link} from "react-router-dom";
+import React, { Fragment } from 'react';
+import { Link } from "react-router-dom";
 
 function Member(props) {
     const teamMemberURl = `/team-member/${props.name.split(' ').join('-').toLocaleLowerCase()}?id=${props.id}`;
@@ -10,7 +10,11 @@ function Member(props) {
                     <div className="team-mem-item">
                         <figure className="member-pic">
                             <Link to={`${process.env.PUBLIC_URL + teamMemberURl}`}>
-                                <img src={require('../../../assets/img/' + props.profilePic)} alt={props.name}/>
+                                <img
+                                    width="340px" height="340px"
+                                    src={require('../../../assets/img/' + props.profilePic)}
+                                    alt={props.name}
+                                />
                             </Link>
                         </figure>
                         <div className="member-info">
@@ -19,19 +23,22 @@ function Member(props) {
                         </div>
                     </div>
                 </div>
-            ):(
-                <div className="team-mem-item">
-                    <figure className="member-pic">
-                        <Link to={`${process.env.PUBLIC_URL + teamMemberURl}`}>
-                            <img src={require('../../../assets/img/' + props.profilePic)} alt={props.name}/>
-                        </Link>
-                    </figure>
-                    <div className="member-info">
-                        <h5><Link to={`${process.env.PUBLIC_URL + teamMemberURl}`} className="stretched-link">{props.name}</Link></h5>
-                        <span className="designation">{props.designation}</span>
+            ) : (
+                    <div className="team-mem-item">
+                        <figure className="member-pic">
+                            <Link to={`${process.env.PUBLIC_URL + teamMemberURl}`}>
+                                <img
+                                    src={require('../../../assets/img/' + props.profilePic)}
+                                    alt={props.name}
+                                />
+                            </Link>
+                        </figure>
+                        <div className="member-info">
+                            <h5><Link to={`${process.env.PUBLIC_URL + teamMemberURl}`} className="stretched-link">{props.name}</Link></h5>
+                            <span className="designation">{props.designation}</span>
+                        </div>
                     </div>
-                </div>
-            )}
+                )}
         </Fragment>
     );
 }

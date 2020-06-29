@@ -18,7 +18,32 @@
     "title": "Services",
     "link": "/services",
     "megaMenu": false,
-    "subMenu": false
+    "subMenu": [
+      {
+        "title": "SBS English",
+        "link": "/service/sbs-english?id=1"
+      },
+      {
+        "title": "SBS Scholarship",
+        "link": "/service/sbs-scholarships?id=2"
+      },
+      {
+        "title": "SBS Education",
+        "link": "/service/sbs-education?id=3"
+      },
+      {
+        "title": "SBS Career Advancement",
+        "link": "/service/sbs-career-advancement?id=4"
+      },
+      {
+        "title": "SBS Migration",
+        "link": "/service/sbs-migration?id=5"
+      },
+      {
+        "title": "Business Consultancy",
+        "link": "/service/business-consultancy?id=6"
+      }
+    ]
   },
   {
     "id": 4,
@@ -29,10 +54,11 @@
   },
   {
     "id": 5,
-    "title": "Blog",
-    "link": "/blog-grid-right-sidebar",
+    "title": "channel",
+    "link": "/blog",
     "megaMenu": false,
-    "subMenu": [
+    "subMenu": false,
+    "subMenuSample": [
       {
         "title": "Blog Grid Left Sidebar",
         "link": "/blog-grid-left-sidebar"

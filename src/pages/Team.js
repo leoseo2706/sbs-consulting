@@ -10,22 +10,22 @@ import Footer from "../components/Footer";
 import LoginRegister from "../components/LoginRegister";
 import MobileMenu from "../components/MobileMenu";
 
-import ServiceThumb from '../assets/img/about.jpg'
+import ServiceThumb from '../assets/img/team.jpg';
 
 const PageTeam = () => {
     return (
         <Fragment>
             <Header/>
             <PageHeader
-                bgImg={require('../assets/img/page-header.jpg')}
-                title="KNOW ABOUT SBS INVESTMENT & CONSULTANCY TEAM"
-                content="Businex always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+                bgImg={require('../assets/img/team-bg.jpg')}
+                title="Meet Our Team"
+                content="Step By Step Investment & Consultancy Team"
             />
             <About
                 title={'Our Team'}
-                heading="Meet Our Member"
+                heading="Meet Our Team"
                 thumb={ServiceThumb}
-                content="<b>Businex</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+                content="SBS Investment & Consultantcy devote to nourishing young talents and providing them with invaluable opportunity of education, work and culture experience in various developed nations all over the world, via domestic and international grants. We work to bring golden chances of sustainable overseas integration and personal development to our beloved customers."
             />
             <TeamMember/>
             <BrandLogo/>

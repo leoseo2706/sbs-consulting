@@ -2,15 +2,32 @@ import React from 'react';
 import Feature from './FeatureItem'
 import FeaturesData from '../../data/Features/features'
 
-function Features({classes}) {
+function Features({ classes }) {
     return (
         <div className={`feature-area-wrapper ${classes}`}>
             <div className="container">
                 <div className="row mtn-sm-60 mtn-md-5">
                     {
-                        FeaturesData.map(feature=>(
-                            <Feature key={feature.id} title={feature.title} text={feature.text} img={feature.imgSrc} />
-                        ))
+                        FeaturesData.map((feature, index) => {
+                            if (index < 3) {
+                                return (
+                                    <Feature
+                                        key={feature.id}
+                                        title={feature.title}
+                                        text={feature.text}
+                                        img={feature.imgSrc} />
+                                )
+                            } else {
+                                return (
+                                    <Feature classes={"custom-feature"}
+                                        key={feature.id}
+                                        title={feature.title}
+                                        text={feature.text}
+                                        img={feature.imgSrc} />
+                                )
+                            }
+                        }
+                        )
                     }
                 </div>
             </div>

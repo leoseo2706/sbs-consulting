@@ -44,10 +44,15 @@
     color: #203752 !important;
 }
 
-.test {
-    color: red !important;
-    background-color: yellow !important;
-    border: solid 1px red;
+.selected {
+    background-color: grey;
+}
+
+.custom-feature{
+    padding-top: 80px;
+    padding-left: 250px;
+    float: left;
+    /* border: solid 1px red; */
 }
 
 

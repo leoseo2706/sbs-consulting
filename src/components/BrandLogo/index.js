@@ -4,10 +4,26 @@ import LogoItem from './LogoItem'
 import BrandLogos from '../../data/BrandLogo/brandlogo';
 import SectionTitle from "../UI/SectionTitle/index";
 
+const NextArrow = ({className, onClick}) => {
+    return (
+        <button className={className} onClick={onClick}><i className="fa fa-angle-right custom-text-no-hover"/></button>
+    )
+};
+
+const PrevArrow = ({className, onClick}) => {
+    return (
+        <button className={className} onClick={onClick}><i className="fa fa-angle-left custom-text-no-hover"/></button>
+    )
+};
+
 function BrandLogo(props) {
     const settings = {
         slidesToShow: 4,
-        arrows: false,
+        arrows : false,
+        // arrows: true,
+        // dots: false,
+        // nextArrow: <NextArrow/>,
+        // prevArrow: <PrevArrow/>,
         autoplay: true,
         className: "brand-logo-content",
         responsive: [

@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-function Anchor({name, path,classes,target,children}) {
-    return <a download={name} href={path} className={classes} target={target}>{children}</a>
+export default class Anchor extends Component {
+
+    render() {
+
+        const {name, path, classes, target, children, flag } = this.props;
+
+        return (
+            <a  download={name}
+                href={path}
+                className={classes, flag ? "selected" : null}
+                name={children}
+                onClick={this.props.onCatClick ? this.props.onCatClick(this) : null}>
+                {children}
+            </a>
+        )
+    }
 }
-
-export default Anchor;

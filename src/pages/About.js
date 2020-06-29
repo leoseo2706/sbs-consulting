@@ -24,11 +24,12 @@ const PageAbout = () => {
             <PageHeader
                 bgImg={require('../assets/img/about.jpg')}
                 title="ABOUT US"
-                content="SBS is established with a commitment and dedication to create a single platform for talented students to shine and transform their lives into better versions. 'No matter how your start is, your journey defines who you really are'. SBS follows the simple principle of “Step By Step” to guide you and its operations."
+                // content="Meet Our Team."
             />
             <About
                 title={'Our Team'}
-                heading="Meet Our <br/> Expert Member"
+                heading="Meet Our Team"
+                content="SBS is established with a commitment and dedication to create a single platform for talented students to shine and transform their lives into better versions. 'No matter how your start is, your journey defines who you really are'. SBS follows the simple principle of “Step By Step” to guide you and its operations."
                 thumb={ServiceThumb}
             />
             <Services/>
