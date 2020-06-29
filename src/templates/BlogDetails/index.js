@@ -7,7 +7,9 @@ import BlogData from "../../data/Blog/blog";
 
 const BlogDetailsPage = ({sidebar}) => {
     const post_id = new URLSearchParams(window.location.search).get("id");
+    console.log(post_id);
     const post = BlogData.find(post => post.id === parseInt(post_id));
+    console.log(post);
 
     return (
         <Fragment>
