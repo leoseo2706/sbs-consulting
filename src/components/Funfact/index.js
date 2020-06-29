@@ -10,10 +10,11 @@ import chartData2 from '../../data/Chart/barchart-2';
 
 class Funfact extends React.Component {
 
-    render () {
+    render() {
 
         return (
-            <div className="fun-fact-area sm-top parallax" style={{ backgroundImage: `url(${funfactbg})` }}>
+            <div className="fun-fact-area sm-top parallax"
+                style={{ backgroundImage: `url(${funfactbg})` }}>
                 <div className="container">
                     <div className="row mtn-40">
                         {
@@ -25,10 +26,11 @@ class Funfact extends React.Component {
                             ))
                         }
                     </div>
-    
-                    <div class="row">
-                        <CustomBarChart data={chartData1}/>
-                        <CustomBarChart data={chartData2}/>
+                    
+                    <br/>
+                    <div class="row custom-bar-phone">
+                        <CustomBarChart data={chartData1} />
+                        <CustomBarChart data={chartData2} />
                     </div>
                 </div>
             </div>

@@ -40,18 +40,23 @@ export default class CustomBarChart extends PureComponent {
         }
 
         if (notReady) {
-            return <span style={{ textAlign: "center", border: "solid 1px red" }}>
-                Loading ....</span>;
+            return <span> Loading ....</span>;
         }
 
         return (
-            <BarChart style={{ marginTop: "30px" }}
-                width={590}
+            <BarChart
+                width={window.innerWidth < 590 ? window.innerWidth : 590}
                 height={300}
                 data={this.state.data}
-                margin={{
-                    top: 50, right: 50, left: 50, bottom: 0,
-                }}
+                margin={
+                    window.innerWidth > 600 ?
+                        {
+                            top: 50, right: 50, left: 50, bottom: 0,
+                        }
+                        : {
+                            top: 10, right: 10, left: 10, bottom: 30,
+                        }
+                }
             >
                 {/* <CartesianGrid strokeDasharray="3 3" /> */}
                 <XAxis dataKey={this.state.key} />

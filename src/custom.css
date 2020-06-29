@@ -48,15 +48,30 @@
     background-color: grey;
 }
 
-.custom-feature{
-    padding-top: 80px;
-    padding-left: 250px;
-    float: left;
-    /* border: solid 1px red; */
-}
-
-
 body {
     background-color: white !important;
     color: #203752 !important;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .off-canvas-content {
+        background-color:#f8f9fc;
+    }
+
+    .res-mobile-menu {
+        background-color: white;
+        border: solid 1px grey;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+
+    .custom-feature{
+        padding-top: 80px;
+        padding-left: 250px;
+        margin: 0 auto;
+        float: left;
+        /* border: solid 1px red; */
+    }
 }

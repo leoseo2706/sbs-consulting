@@ -28,7 +28,8 @@ class Header extends Component {
                             <Logo />
                         </div>
 
-                        <div className="col-lg-7 d-none d-lg-block" style={{fontWeight: "bold"}}>
+                        <div className="col-lg-7 d-none d-lg-block"
+                            style={{ fontWeight: "bold"}}>
                             <div className="navigation-area mt-lg-3">
                                 <Navbar />
                             </div>

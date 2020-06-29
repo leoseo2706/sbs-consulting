@@ -9,11 +9,6 @@ const About = ({ content }) => {
         <div className="home-two-about-area">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-12 d-lg-none">
-                        <figure className="about-thumb">
-                            <img src={require('../../../assets/img/' + aboutData.thumb)} alt="SBS-About" />
-                        </figure>
-                    </div>
 
                     <div className="col-lg-5">
                         <div className="about-content about-content--2">
@@ -24,9 +19,20 @@ const About = ({ content }) => {
                             <Link to={`${process.env.PUBLIC_URL + aboutData.btnLink}`} className="btn-about custom-color">{aboutData.btnText} <i className="fa fa-angle-double-right" /></Link>
                         </div>
                     </div>
-                    <div className="col-lg-7"
-                        style={{ height: "393px", backgroundImage: `url(${aboutThumb})` }}
-                    />
+
+                    {window.innerWidth > 700
+                        ?
+                        <div className="col-lg-7"
+                            style={{ height: "393px", backgroundImage: `url(${aboutThumb})` }}
+                        />
+                        :
+                        <div className="col-12 d-lg-none">
+                            <figure className="about-thumb">
+                                <img src={require('../../../assets/img/' + aboutData.thumb)} alt="SBS-About" />
+                            </figure>
+                        </div>
+                    }
+
                 </div>
             </div>
         </div>
